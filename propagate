@@ -1,0 +1,6 @@
+wget http://wordpress.org/latest.tar.gz
+tar xfz latest.tar.gz
+mv wordpress/* ./
+rm -r wp-content/themes
+curl -sS https://getcomposer.org/installer | php
+composer install

@@ -1,0 +1,23 @@
+{
+    "name"          : "propagate",
+    "description"   : "WordPress starter enviornment",
+    "authors"       : [
+        {
+            "name"      :   "Ross Johnson",
+            "email"     :   "ross@3.7designs.co",
+            "homepage"  :   "https://3.7designs.co"
+        }
+    ],
+    "repositories" : [
+        {
+            "type"  :   "composer",
+            "url"   :   "http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/akismet"             : "*",
+        "wpackagist-plugin/core-control"        : "*",
+        "wpackagist-plugin/user-switching"      : "*",
+        "wpackagist-plugin/jetpack"             : "*"
+    }
+}
