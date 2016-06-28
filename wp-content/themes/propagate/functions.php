@@ -21,6 +21,8 @@ if( !defined( 'THEME_VER' ) ) {
 
 }
 
+do_action( 'before_propogate_theme_load' );
+
 apply_filters( 'threeseven_includes', $threeseven_includes = array(
     'inc/settings.php',             // Default settings
     'inc/shortcodes.php',           // Custom shortcodes go here
@@ -41,3 +43,5 @@ foreach ( $threeseven_includes as $file ) {
 }
 
 unset( $file, $filepath );
+
+do_action( 'after_propogate_theme_load' );

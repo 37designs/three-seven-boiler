@@ -12,9 +12,9 @@ Installation
 ------------
 
 1. Install compass:
-    a. `sudo gem install compass`
-    b. `npm update -g npm`
-    c. `sudo npm install -g grunt-cli`
+    * `sudo gem install compass`
+    * `npm update -g npm`
+    * `sudo npm install -g grunt-cli`
 2. Install git: https://git-scm.com/download/mac
 3. Type `./propagate`
 4. cd `wp-content/themes/propagate`
